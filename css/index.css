@@ -1,0 +1,153 @@
+/* Setting the background color of the body to black */
+body {
+  background-image: url(/images/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 56px;
+}
+
+/* Changing the color of navbar links on hover to red */
+.navbar {
+  background-color: #111922;
+  /* overflow: hidden; */
+  position: fixed;
+  top: 0;
+  width: 100%;  
+  z-index: 1000;
+  text-transform: uppercase;
+}
+
+.nav-link{
+  color: #fff;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;  
+  color: #fff;
+}
+
+/* Styling for the search input area */
+#searchInput {
+  width: 17vw;
+}
+
+/* Styling for the main content container */
+#contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Styling for individual cards */
+.card {
+  width: 259px;
+  height: 350;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid ivory;
+  border-radius: 7px;
+  background-color: rgba(17, 25, 34, 0.8);
+  color: aliceblue;
+  box-shadow: 4px 4px 4px 4px rgba(169, 163, 163, 0.2);
+}
+
+/* Styling for character images */
+#characterImage {
+  height: 250px;
+  width: 100%;
+}
+
+/* Styling for character names */
+#characterName {
+  text-shadow: 1px 1px 6px cadetblue;
+  color: aliceblue;
+}
+
+/* Styling for buttons */
+.btn {
+  margin-bottom: 5px;
+  height: 40px;
+  width: 220px;
+  border-radius: 4px;
+  background-color: #111922;
+}
+
+.viewBtn {
+  color: #6180b9;
+  border: 3px solid #6180b9;
+}
+
+.addfavBtn {
+  color: #ffa98f;
+  border: 3px solid #ffa98f;
+}
+
+.rmvFavBtn {
+  color: #ffd436;
+  border: 3px solid #ffd436;
+}
+
+.viewBtn:hover {
+  color: #111922;
+  background-color: #6180b9;
+  border-color: #6180b9;
+}
+
+.addfavBtn:hover {
+  color: #111922;
+  background-color: #ffa98f;
+  border-color: #ffa98f;
+}
+
+.rmvFavBtn:hover {
+  color: #111922;
+  background-color: #ffd436;
+  border-color: #ffd436;
+}
+
+/* Styling for heading */
+h5 {
+  margin-top: 20px;
+}
+
+/* Styling for card titles */
+.card-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+/* Styling for not found message */
+.notFound {
+  margin: auto;
+  align-items: center;
+  height: 75vh;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px 6px cadetblue;
+  color: aliceblue;
+}
+
+/* Style for card hover */
+.card:hover {
+  transform: scale(1.04);
+}
+
+/* Define the layout of the favorites container */
+#favoritesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Adding a custom border style */
+.custom-border {
+  border: 5px solid #ccc;
+}
+
+/* Styling for an element with the id 'details' */
+#details {
+  margin-top: 40px;
+}
