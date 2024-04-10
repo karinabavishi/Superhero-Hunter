@@ -1,4 +1,7 @@
+
 # Superhero Hunter
+https://karinabavishi.github.io/Superhero-Hunter/
+
 **Superhero Hunter is a web application that allows users to explore and manage their favorite superheroes from the Marvel universe. The app utilizes the Marvel API to fetch superhero data dynamically and provides features such as searching for superheroes, viewing detailed information, and adding them to a favorites list.**
 ## Features
 + Fetch and display a list of superheroes from the Marvel API.
